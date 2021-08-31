@@ -24,18 +24,17 @@ body{
 }
 
 .attribution{
-	position: absolute;
-	bottom: 0;
-	/*left: 50%;*/
-	right: 50%;
+	/*position: absolute;
+	bottom: 0;*/
+	/*left: 50%;
+	right: 50%;*/
 }
 
 .title{
 	margin: 20px;
 	font-size: 30px;
 	font-weight: 900;
-	color: hsl(223, 47%, 23%)
-;
+	color: hsl(223, 47%, 23%);
 }
 
 .icon{
@@ -56,6 +55,7 @@ p{
 }
 
 .btn{
+	cursor: pointer;
 	color: hsl(225, 100%, 98%);
 	border-radius: 10px;
 	background-color: hsl(245, 75%, 52%);
@@ -67,6 +67,8 @@ p{
 .cancel{
 	color: grey;
 	padding: 20px;
+	cursor: pointer;
+	font-weight: 900;
 }
 
 
@@ -107,4 +109,17 @@ p{
 	grid-row-start: 1;
 	grid-row-end: 2;
 	align-self: center;
+}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+.btn:hover{
+	opacity: 0.8;
+}
+
+.cancel:hover{
+	color: hsl(223, 47%, 23%);
 }
